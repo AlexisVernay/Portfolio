@@ -1,0 +1,30 @@
+/*.menu{
+	padding: 0;
+	li{
+		list-style-type: none;
+		background-color: blue;
+		a{
+			display: block;
+			color: blue;
+			padding: 1em;
+			background-color: blue;
+			&:hover{
+				text-decoration: none;
+		}
+		&.last{
+			color: #fff;
+		}
+	}
+}*/
+
+/*@media screen and (min-width: $media-query-phone-breakpoint) {
+		.menu{
+			display: table;
+			width: 100%;
+			max-width: 100%;
+			li{
+				display: table-cell;
+				text-align: center;
+			}
+		}
+}*/
