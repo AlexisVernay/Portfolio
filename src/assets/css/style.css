@@ -34,11 +34,11 @@ body {
 
 @media screen and (min-width: 640px) {
   body {
-    backround-color: blue; } }
+    background-color: blue; } }
 
 @media screen and (min-width: 800px) {
   body {
-    backround-color: green; } }
+    background-color: green; } }
 
 header {
   font-family: 'Shadows Into Light', cursive;
