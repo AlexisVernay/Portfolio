@@ -1,73 +1,56 @@
-/* Layout */
+@import "inc/variables";
+@import "inc/menu";
 
-.container {
-  display: grid;
-  grid-template-columns: min-content min-content;
-  grid-template-rows: min-content min-content;
-  grid-template-areas: "a" "b" "c" "d";
-}
-header {
-  grid-column: 2 ;
-}
-nav {
-  grid-column: 4;
-}
-article {
-  grid-column: 6;
-}
-footer {
-  grid-column: 8;
+body{
+	font: 100% Helvetica, sans-serif;
+	background-color:#58D3F7;
+	font-size: 18px;
 }
 
-/* Decoration */
-
-* {box-sizing: border-box}
-body {
-	margin: 20px;
-	background: #fff;
-	font-family: "Century Gothic", helvetica, arial, sans-serif;
-	font-size: 1.2em;
-}
-.container {
-	background: beige;
-	border: 3px dotted orange;
-	margin-bottom: 2em;
-}
-div, nav, section, article, aside, header, footer {
-	padding: 10px;
-	color: #fff;
-}
-nav {
-	background: dodgerblue;
-}
-section {
-	background: hotpink;
-}
-article {
-  background: orange;
-}
-aside {
-  background: olivedrab;
-}
-header {
-  background: gray;
-}
-footer {
-  background: crimson;
-}
-div:nth-of-type(3) {
-	background: olivedrab;
-}
-div:nth-of-type(4) {
-	background: hotpink;
-}
-div:nth-of-type(5) {
-	background: slategray;
+@media screen and(min-width: 640px){
+	body{
+		background-color: blue;
+	}
 }
 
-h1 {
-	margin: 0 0 1em;
-	color: #345;
+@media screen and(min-width: 800px){
+	body{
+		background-color: green;
+	}
+}
+
+header{
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
 	text-align: center;
-  font-family: georgia, "trebuchet ms", arial, serif;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+h4{
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+h5{
+  text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+article{
+	text-align: center;
+  font-family: 'Alegreya', serif;
+}
+
+footer{
+	font-family: 'Bangers', cursive;
+	text-align: center;
 }
