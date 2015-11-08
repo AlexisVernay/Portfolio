@@ -46,19 +46,9 @@ header {
   text-align: center; }
 
 article {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Alegreya', serif; }
 
 footer {
   font-family: 'Bangers', cursive;
   text-align: center; }
-
-.menu li {
-  font-family: 'Alegreya', serif;
-  text-align: center;
-  font-size: 20px; }
-  .menu li a {
-    color: black; }
-    .menu li a:hover {
-      text-decoration: none; }
-    .menu li a.last {
-      color: blue; }
