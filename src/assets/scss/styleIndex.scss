@@ -1,13 +1,21 @@
 body{
 	font: 100% Helvetica, sans-serif;
-	background-color:#58D3F7;
 	font-size: 18px;
+  width: 100%;
+  height: 100%;
+  background-image:url('../images/wallpaper2.jpg');
+  background-size: 100% 100%;
 }
 
 header{
 	font-family: 'Bangers', cursive;
-	font-size: 50px;
+	font-size: 120%;
 	text-align: center;
+  width: 100%;
+  height: 18%;
+  padding: 1;
+  background-image:url('../images/developer-header.jpg');
+  background-size: 100% 100%;
 }
 
 footer{
