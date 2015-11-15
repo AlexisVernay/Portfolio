@@ -1,52 +1,32 @@
-@import "inc/variables";
-@import "inc/menu";
-
 body{
 	font: 100% Helvetica, sans-serif;
-	background-color:#58D3F7;
 	font-size: 18px;
-}
-
-@media screen and(min-width: 640px){
-	body{
-		background-color: blue;
-	}
-}
-
-@media screen and(min-width: 800px){
-	body{
-		background-color: green;
-	}
+  width: 100%;
+  height: 100%;
+  background-image:url('../images/wallpaper2.jpg');
+  background-size: 100% 100%;
 }
 
 header{
 	font-family: 'Bangers', cursive;
-	font-size: 50px;
+	font-size: 120%;
 	text-align: center;
+  width: 100%;
+  height: 18%;
+  padding: 1;
+  background-image:url('../images/skill-banner.png');
+  background-size: 100% 100%;
 }
 
 h2{
-  text-align: center;
-  font-family: 'Alegreya', serif;
-}
-
-h3{
-  text-align: center;
-  font-family: 'Alegreya', serif;
-}
-
-h4{
-  text-align: center;
-  font-family: 'Alegreya', serif;
-}
-
-h5{
-  text-align: center;
+	text-align: left;
+	margin-left: 1%;
   font-family: 'Alegreya', serif;
 }
 
 article{
-	text-align: center;
+	text-align: left;
+	margin-left: 5%;
   font-family: 'Alegreya', serif;
 }
 
