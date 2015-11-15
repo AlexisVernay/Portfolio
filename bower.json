@@ -1,9 +1,13 @@
 {
-  "name": "portfolio",
-  "description": "Y",
-  "main": "index.js",
-  "license": "ISC",
+  "name": "Portfolio",
+  "version": "0.0.0",
+  "authors": [
+    "Alexis Vernay <Alexis.Vernay@e.ujf-grenoble.fr>"
+  ],
+  "description": "",
+  "main": "",
   "moduleType": [],
+  "license": "MIT",
   "homepage": "",
   "ignore": [
     "**/.*",
@@ -11,5 +15,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
 }

@@ -1,74 +1,54 @@
-/* Layout */
-.container {
-  display: grid;
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 200px 200px;
-  grid-template-areas: "a b" "c d"; }
-
-header {
-  grid-area: a;
-  justify-self: center; }
-
-nav {
-  grid-area: b;
-  align-self: center; }
-
-article {
-  grid-area: c;
-  justify-self: center;
-  align-self: center; }
-
-footer {
-  grid-area: d; }
-
-/* Decoration */
-* {
-  box-sizing: border-box; }
-
+/*.menu{
+	padding: 0;
+	li{
+		list-style-type: none;
+		background-color: blue;
+		a{
+			display: block;
+			color: blue;
+			padding: 1em;
+			background-color: blue;
+			&:hover{
+				text-decoration: none;
+		}
+		&.last{
+			color: #fff;
+		}
+	}
+}*/
+/*@media screen and (min-width: $media-query-phone-breakpoint) {
+		.menu{
+			display: table;
+			width: 100%;
+			max-width: 100%;
+			li{
+				display: table-cell;
+				text-align: center;
+			}
+		}
+}*/
 body {
-  margin: 20px;
-  background: #fff;
-  font-family: "Century Gothic", helvetica, arial, sans-serif;
-  font-size: 1.2em; }
-
-.container {
-  background: beige;
-  border: 3px dotted orange;
-  margin-bottom: 2em; }
-
-div, nav, section, article, aside, header, footer {
-  padding: 10px;
-  color: #fff; }
-
-nav {
-  background: dodgerblue; }
-
-section {
-  background: hotpink; }
-
-article {
-  background: orange; }
-
-aside {
-  background: olivedrab; }
+  font: 100% Helvetica, sans-serif;
+  background-color: #58D3F7;
+  font-size: 18px; }
 
 header {
-  background: gray; }
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  text-align: center; }
+
+h2 {
+  text-align: center;
+  font-family: 'Alegreya', serif; }
+
+h3 {
+  text-align: center;
+  font-family: 'Alegreya', serif; }
+
+article {
+  text-align: center;
+  font-family: 'Alegreya', serif; }
 
 footer {
-  background: crimson; }
-
-div:nth-of-type(3) {
-  background: olivedrab; }
-
-div:nth-of-type(4) {
-  background: hotpink; }
-
-div:nth-of-type(5) {
-  background: slategray; }
-
-h1 {
-  margin: 0 0 1em;
-  color: #345;
-  text-align: center;
-  font-family: georgia, "trebuchet ms", arial, serif; }
+  font-family: 'Bangers', cursive;
+  text-align: center; }

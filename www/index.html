@@ -1,42 +1,45 @@
 <DOCTYPE html>
 <html>
 	<head>
-		<title>Alexis Vernay Portfolio</title>
+		<title>Première page html</title>
 		<meta charset="utf-8">
 		<meta name ="viewport content" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/lib/normalize-css/normalize.css" media="screen">
 		<link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
-		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="assets/js/cript.js"></script>
 	</head>
 
 	<body background="images/wallpaper.jpg">
 		<div class="container">
 			<header>
-				<h1>Alexis Vernay</h1>
+				<h1>Portfolio</h1>
 			</header>
 
-			<div id='cssmenu'>
-				<ul class="menu">
+			<a href class="toggle-menu"></a>
+			<ul class="menu">
 					<li><a href="degree.html" title="t1">Formations et Diplômes</a></li>
    				<li><a href="skills.html" title="t2">Compétences</a></li>
    				<li><a href="experience.html" title="t3">Expériences</a></li>
    				<li><a href="interests.html" title="t4">Centres d'intérêt</a></li>
-				</ul>
-			</div>
-
+			</ul>
 
 			<article>
-
+				<img src="images/avatar.jpg" alt="Avatar" style="width:195px;height:200px">
 			</acticle>
 
 			<footer>
-				<p>Alexis Vernay - 2015 -  <a href="mailto:alexisvernay38@gmail.com" target="_blank">alexisvernay38@gmail.com</a></p>
+				<p>Créé par Alexis Vernay</p>
 			</footer>
 		</div>
 
 	</body>
 
+
+	<script src="assets/lib/jquery/dist/jquery.js"></script>
+	<script type="text/javascript">
+			$('.toggle-menu').click(function(){
+				$('menu').toggleClass("slow");
+			});
+	</script>
 </html>
